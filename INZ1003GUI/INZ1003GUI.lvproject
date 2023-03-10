@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="A21D01AE6BB10D4A280BE7F44312BC7F853467405A1ACA455B89E8B6699AF21C32064287FEC279B2D4E6478E2948828DF08E4F5DA63C5006F9621B0CA505BFAB" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="1B3A13426C587C02DB7271FF285F2B36C000202FEC6D28FD70B407D997AD2142DC69ECC6B864BCEE81A89640A70BDF03AD02CE175220FA230ED0080FC2EF280A" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -176,6 +176,7 @@
 						</ComponentDefinition>
 						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="bac210a9316a43f1b6251e4b859bc626" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="MAIN.gvi" StoragePath="MAIN.gvi" />
 						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="8836c78a80834ca5886eafc886a04bb1" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DC Voltage.gvi" StoragePath="DC Voltage.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="86108c6139d045f9a763bbb55b48d86a" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="MAINTEST.gvi" StoragePath="MAINTEST.gvi" />
 					</EmbeddedDefinitionReference>
 				</NameScopingEnvoy>
 			</NameScopingEnvoy>

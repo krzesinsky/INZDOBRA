@@ -383,4 +383,12 @@
 			<string>lv_string.slicache</string>
 		</value>
 	</item>
+	<item>
+		<key>
+			<string>Color_20_1419b18ca5a442569a83800b0bf40cfd_3e116f9eab7041d69973db9e4eadd1a1.gtypecache</string>
+		</key>
+		<value>
+			<string>Color.gtypecache</string>
+		</value>
+	</item>
 </SerializableDictionary>
