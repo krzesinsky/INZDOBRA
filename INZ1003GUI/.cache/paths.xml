@@ -535,4 +535,44 @@
 			<string>Transpose.gtypecache</string>
 		</value>
 	</item>
+	<item>
+		<key>
+			<string>NI.HTTP_eb6fbac1b1aa40d0a93be65147009719_870ff10d2b914c579840abd9d5d91d57.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.HTTP.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>Client Handle_23_eb6fbac1b1aa40d0a93be65147009719_870ff10d2b914c579840abd9d5d91d57.gtypecache</string>
+		</key>
+		<value>
+			<string>Client Handle.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>httpClient_27_eb6fbac1b1aa40d0a93be65147009719_870ff10d2b914c579840abd9d5d91d57.slicache</string>
+		</key>
+		<value>
+			<string>httpClient.slicache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>Occurrence_42_eb6fbac1b1aa40d0a93be65147009719_870ff10d2b914c579840abd9d5d91d57.gtypecache</string>
+		</key>
+		<value>
+			<string>Occurrence.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>httpWebServerClient_43_eb6fbac1b1aa40d0a93be65147009719_870ff10d2b914c579840abd9d5d91d57.slicache</string>
+		</key>
+		<value>
+			<string>httpWebServerClient.slicache</string>
+		</value>
+	</item>
 </SerializableDictionary>
