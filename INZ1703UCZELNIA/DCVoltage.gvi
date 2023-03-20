@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="7569406EDD0441FBA6E02DB9545EA2E6DB99F6CE7341BA0AB7DB3E87BC3D616CB71DA4DB8C08AE9415AB7D72FCDC27DC4695D4C950D53B49038E9A69E2A6DCBA" Timestamp="1D9504A62815E96" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW NXG" Version="5.1.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="c13027c3a82f43968ce0334af0b43060" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="bb712639256a43e0a979096b3ec5cc4a" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="377d2d4b5b224cb0880e53212acd0a57" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="62495249bfa14c2dbe8325007969be25" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="b60f4712218b489cbb2539ad080c79fc" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="66201573a59440a79714358702c16978" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+					<FileNameText Attached="[bool]True" Id="9e1ab5a2fa6846f39c400e985473823f" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]DCVoltage" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden">
+						<FontSetting FontFamily="Segoe UI" FontSize="6" Id="e1e2462b0b944c19b0404b316b57e29f" />
+					</FileNameText>
+				</IconTemplate>
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="9f0db9f2c93c4d39be9ff46e5bac96f7" ListViewHeight="40" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal />
+			<ConnectorPaneTerminal Hotspot="0 15" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" />
+			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="536f4ecd747a4dc19cf5cde2f9cfa63c" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="0 0 40 15" DataItem="2e7592f3bcda41c5b056016c1caae82f" Id="1afd6aa9322749afb1d21acc78628fa8" Label="ee09cee431d645ee85a138936ab1430b">
+				<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="1afd6aa9322749afb1d21acc78628fa8" Bounds="-35 0 30 15" Id="ee09cee431d645ee85a138936ab1430b" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Round LED</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="90 50 40 15" DataItem="376d602b405f4e309d5ee3650814a34d" Id="9130f642a304c79b07dd5ac9620f4c2" Label="a30570427cc64400823525aa8f1db921">
+				<Terminal DataType="Double" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="9130f642a304c79b07dd5ac9620f4c2" Bounds="10 50 75 14" Id="a30570427cc64400823525aa8f1db921" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Aperture NPLC</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="120 135 40 15" DataItem="ea030f8472b04980b7db3527a6eea250" Id="8efca82775734a57bd35af1e4fa29812" Label="eb80a15f087243e7bfcf4ea01347806b">
+				<Terminal DataType="Double" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="8efca82775734a57bd35af1e4fa29812" Bounds="38 135 77 14" Id="eb80a15f087243e7bfcf4ea01347806b" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Aperture Time</p.Text>
+			</NodeLabel>
+		</DiagramUnplacedItems>
+		<FrontPanelUnplacedItems Id="5f9fc8d6c40141259cd4444ffeb9c2c3" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0">
+			<Switch ClickMode="[ClickMode]Press" Content="[string]Disable" ContentVisibility="[Visibility]Visible" Enabled="[bool]True" FalseContent="[string]Off" FalseContentVisibility="[Visibility]Visible" Height="[float]44" Id="76e46b3fa8814e22a7160323a41bfda8" IsMomentary="[bool]False" IsReadOnly="[bool]False" IsTabStop="[bool]True" Label="[UIModel]7e0ef625d6f546e4b87afaa65b64719e" Left="[float]100" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" TabIndex="[int]0" TextAlignment="[TextAlignment]Center" Top="[float]292" TrueContent="[string]On" Value="{DataItemBinding Id=8aa43a4b65314c6786a273104b64b7d8}" Width="[float]34" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">"Disables or enables automatic input impedance mode for DC voltage and ratio measurements.\n\nValid Values:\nEnable\nDisable\n\nDefault Value:\nDisable\n"</p.InfoTipDescription>
+			</Switch>
+			<Label Height="[float]16" Id="7e0ef625d6f546e4b87afaa65b64719e" LabelAlignment="[PartAlignment]RightTop" LabelOwner="[UIModel]76e46b3fa8814e22a7160323a41bfda8" Left="[float]142" Text="[string]Auto Impedance" Top="[float]292" Width="[float]88" xmlns="http://www.ni.com/PanelCommon" />
+		</FrontPanelUnplacedItems>
+		<BlockDiagram Id="9c0f3b08e03b44189b57c0293588631d">
+			<WhileLoop Bounds="235 175 605 370" DiagramId="cd016e805b0c40f1b0c72a64d0ac423a" Id="3cf452e806df4d748e7405fe00bdb790">
+				<LoopIteration Bounds="5 340 15 15" Id="815ed8984efe457aae61ff6881d85905" />
+				<LoopCondition Bounds="575 340 15 15" Id="6af3e716aa5a4bfbb052772c65e4c684" />
+				<DataAccessor Bounds="190 230 40 15" DataItem="5f2f359a332d4c63b989c86d5c1f6660" Id="84006bc6c54b4d1ab90c584f5b77b169" Label="17b203827e446cba25dbbb576209ff2" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<PropertyNode Bounds="265 205 88 45" Id="4540daa0ba6842b58729a0633340b0e9" InstanceDataType=":DotNet:NationalInstruments.Controls.Runtime.RingSelectorDoubleProxy, NationalInstruments.Controls.Runtime`@4118ee739a8f443099aa33d498f67dbf" xmlns="http://www.ni.com/MocCommon">
+					<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
+						<TypeDefinitionTarget TargetName="NI::G Core::Color Picker::Color.gtype" />
+					</p.TypeDefinitionTargets>
+					<PropertyItemTerminal Action="Write" DataType="Boolean" Hotspot="0 25" Id="c0t0v" Path="Disabled" PathElementMemberKinds="Property" Usage="Required" />
+				</PropertyNode>
+				<NodeLabel AttachedTo="84006bc6c54b4d1ab90c584f5b77b169" Bounds="124 230 61 14" Id="17b203827e446cba25dbbb576209ff2" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Auto range</p.Text>
+				</NodeLabel>
+				<Wire Id="4b0fd27a5b5f4a15a2840df6d378d69b" Joints="N(84006bc6c54b4d1ab90c584f5b77b169:Value)|(230,235) h(6) v(-5) N(4540daa0ba6842b58729a0633340b0e9:c0t0v)|(265,230)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="d5610ba997d94c3b9a7b25dc4eacb19a" Joints="N(6459092be298466fb2884dc2ed5d9786:control reference)|(180,185) h(6) v(10) h(35) v(15) N(4540daa0ba6842b58729a0633340b0e9:instance in)|(265,210)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="505 340 40 15" DataItem="9f765201936a4be29306f2b19de99755" Id="1121fad0f8c344419537e9e55ac77247" Label="788ca56163234a46ab6faf65079ebf78" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="1121fad0f8c344419537e9e55ac77247" Bounds="476 340 24 14" Id="788ca56163234a46ab6faf65079ebf78" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>stop</p.Text>
+				</NodeLabel>
+				<Wire Id="857c3cd09acc4fb08a27f115e6b02fbc" Joints="N(1121fad0f8c344419537e9e55ac77247:Value)|(545,345) N(6af3e716aa5a4bfbb052772c65e4c684:Input)|(575,345)" xmlns="http://www.ni.com/PlatformFramework" />
+				<DataAccessor Bounds="90 50 40 15" DataItem="8837d106f31f477b8e141698e5303b7e" Id="69cff039ad6f45d4a2de8d4332ad61a5" Label="1b6b9d109f5345f3b97716feac6478fe" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Double" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="69cff039ad6f45d4a2de8d4332ad61a5" Bounds="10 50 75 14" Id="1b6b9d109f5345f3b97716feac6478fe" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Manual range</p.Text>
+				</NodeLabel>
+				<ControlReference Bounds="75 180 105 20" Id="6459092be298466fb2884dc2ed5d9786" SourceControl="af9fcd70c9714e228302c224c9b4764f" />
+				<DataAccessor Bounds="80 25 40 15" DataItem="49981889a3c244cab60c10f9f7d47e3c" Id="8fd50f02b69e4e158daff0736ef1012d" Label="7f7a34853f5d43918d04a062142438ae" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="8fd50f02b69e4e158daff0736ef1012d" Bounds="20 25 55 14" Id="7f7a34853f5d43918d04a062142438ae" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Auto Zero</p.Text>
+				</NodeLabel>
+				<DataAccessor Bounds="90 75 40 15" DataItem="d64164f2bf6421f8e775b9a025fab39" Id="6c22ef568752454e8ec596b12e4907b5" Label="62507bb228d24d78a9a3ba3fb1a13b8b" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="6c22ef568752454e8ec596b12e4907b5" Bounds="29 75 56 14" Id="62507bb228d24d78a9a3ba3fb1a13b8b" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>DCV Ratio</p.Text>
+				</NodeLabel>
+				<DataAccessor Bounds="115 95 40 15" DataItem="8aa43a4b65314c6786a273104b64b7d8" Id="a6accaddfbdc43499ef674d3793258a5" Label="dbcadbf6c43d48799cd4813a26629493" xmlns="http://www.ni.com/MocCommon">
+					<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+				</DataAccessor>
+				<NodeLabel AttachedTo="a6accaddfbdc43499ef674d3793258a5" Bounds="19 95 91 14" Id="dbcadbf6c43d48799cd4813a26629493" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Auto Impedance</p.Text>
+				</NodeLabel>
+			</WhileLoop>
+		</BlockDiagram>
+		<NativeFrontPanel Background="[SMSolidColorBrush]#ffffffff" Height="[float]768" HtmlPanel="[bool]False" Id="74bcb30da69a4f0588513d7ae2e49d9d" Left="[float]0" MaxHeight="[float]768" MaxWidth="[float]1024" PanelSizeMode="Fixed" RunInWindow="[bool]True" Top="[float]0" Width="[float]1024">
+			<PanelExecutionWindow Id="c509f93e81014464b8f00c60740c5a26" />
+			<Switch ClickMode="[ClickMode]Release" Content="[string]Disable" ContentVisibility="[Visibility]Visible" Enabled="[bool]True" FalseContent="[string]Off" FalseContentVisibility="[Visibility]Visible" Height="[float]44" Id="36b6a7afd2d7471a836ac97d300ea23e" IsMomentary="[bool]False" IsReadOnly="[bool]False" IsTabStop="[bool]True" Label="[UIModel]16a4df7a48284a35a7bec88f5b43e42e" Left="[float]208" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" TabIndex="[int]0" TextAlignment="[TextAlignment]Center" Top="[float]16" TrueContent="[string]On" Value="{DataItemBinding Id=5f2f359a332d4c63b989c86d5c1f6660}" Width="[float]34" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">"Enables or disables automatic range selection on the instrument.  If this control is set to &lt;B&gt;Disable&lt;/B&gt;, the &lt;B&gt;Manual Range&lt;/B&gt; control is used to set the range.\n\nValid Values:\nEnable\nDisable\n\nDefault Value:\nEnable"</p.InfoTipDescription>
+			</Switch>
+			<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="16a4df7a48284a35a7bec88f5b43e42e" LabelAlignment="[PartAlignment]RightTop" LabelOwner="[UIModel]36b6a7afd2d7471a836ac97d300ea23e" Left="[float]250" Text="[string]Auto range" Top="[float]16" Width="[float]60" xmlns="http://www.ni.com/PanelCommon" />
+			<Button BaseName="[string]Stop" Content="[string]Stop" Enabled="[bool]True" Foreground="[SMColor]#ffff0000" Height="[float]25" Id="fe61560b45ae4487a55c8c3447f79ad3" IncludeInCapture="[bool]False" IsMomentary="[bool]False" IsReadOnly="[bool]False" Label="[UIModel]13f7422450fd4c41a4c3c757788cb0d1" Left="[float]772" Shape="[ButtonShape]Square" TabIndex="[int]1" Top="[float]180" Value="{DataItemBinding Id=9f765201936a4be29306f2b19de99755}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="13f7422450fd4c41a4c3c757788cb0d1" LabelOwner="[UIModel]fe61560b45ae4487a55c8c3447f79ad3" Left="[float]772" Text="[string]stop" Top="[float]160" Width="[float]24" xmlns="http://www.ni.com/PanelCommon" />
+			<RingSelector AllowNonSequentialValues="[bool]True" AllowUndefinedValueEntry="[bool]False" BaseName="[string]Text Ring" Enabled="[bool]True" Height="[float]24" Id="af9fcd70c9714e228302c224c9b4764f" IsTypeAheadEnabled="[bool]True" Label="[UIModel]54ec8f46e57e47ff82968f7af6a8eac0" Left="[float]484" TabIndex="[int]2" Top="[float]244" Value="{DataItemBinding Id=8837d106f31f477b8e141698e5303b7e}" ValueType="[Type]Double" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<RingSelectorInfo DisplayValue="[string]1 V" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[double]1" ValueType="[Type]Double" />
+				<RingSelectorInfo DisplayValue="[string]100 mV" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[double]0.1" ValueType="[Type]Double" />
+				<RingSelectorInfo DisplayValue="[string]10 V" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[double]10" ValueType="[Type]Double" />
+				<RingSelectorInfo DisplayValue="[string]100 V" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[double]100" ValueType="[Type]Double" />
+				<RingSelectorInfo DisplayValue="[string]750 V" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[double]750" ValueType="[Type]Double" />
+			</RingSelector>
+			<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="54ec8f46e57e47ff82968f7af6a8eac0" LabelOwner="[UIModel]af9fcd70c9714e228302c224c9b4764f" Left="[float]484" Text="[string]Manual range" Top="[float]224" Width="[float]74" xmlns="http://www.ni.com/PanelCommon" />
+			<Switch ClickMode="[ClickMode]Release" Content="[string]Disable" ContentVisibility="[Visibility]Visible" Enabled="[bool]True" FalseContent="[string]Off" FalseContentVisibility="[Visibility]Visible" Height="[float]44" Id="cb1585ab8b8e4f8ca328a0bc706e899e" IsMomentary="[bool]False" IsReadOnly="[bool]False" IsTabStop="[bool]True" Label="[UIModel]10b3ecfbdab74e0aac3eeb728d73e80a" Left="[float]288" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" TabIndex="[int]3" TextAlignment="[TextAlignment]Center" Top="[float]144" TrueContent="[string]On" Value="{DataItemBinding Id=49981889a3c244cab60c10f9f7d47e3c}" Width="[float]34" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">"Enables or disables automatic range selection on the instrument.  If this control is set to &lt;B&gt;Disable&lt;/B&gt;, the &lt;B&gt;Manual Range&lt;/B&gt; control is used to set the range.\n\nValid Values:\nEnable\nDisable\n\nDefault Value:\nEnable"</p.InfoTipDescription>
+			</Switch>
+			<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="10b3ecfbdab74e0aac3eeb728d73e80a" LabelAlignment="[PartAlignment]RightTop" LabelOwner="[UIModel]cb1585ab8b8e4f8ca328a0bc706e899e" Left="[float]330" Text="[string]Auto Zero" Top="[float]144" Width="[float]54" xmlns="http://www.ni.com/PanelCommon" />
+			<Switch ClickMode="[ClickMode]Release" Content="[string]Disable" ContentVisibility="[Visibility]Visible" Enabled="[bool]True" FalseContent="[string]Off" FalseContentVisibility="[Visibility]Visible" Height="[float]44" Id="8a823c738f054f5ebe148085ca13785b" IsMomentary="[bool]False" IsReadOnly="[bool]False" IsTabStop="[bool]True" Label="[UIModel]326161da8c144bd1be8140bf55d6f9fd" Left="[float]384" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" TabIndex="[int]4" TextAlignment="[TextAlignment]Center" Top="[float]64" TrueContent="[string]On" Value="{DataItemBinding Id=d64164f2bf6421f8e775b9a025fab39}" Width="[float]34" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">"Enables or disables automatic range selection on the instrument.  If this control is set to &lt;B&gt;Disable&lt;/B&gt;, the &lt;B&gt;Manual Range&lt;/B&gt; control is used to set the range.\n\nValid Values:\nEnable\nDisable\n\nDefault Value:\nEnable"</p.InfoTipDescription>
+			</Switch>
+			<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="326161da8c144bd1be8140bf55d6f9fd" LabelAlignment="[PartAlignment]RightTop" LabelOwner="[UIModel]8a823c738f054f5ebe148085ca13785b" Left="[float]426" Text="[string]DCV Ratio" Top="[float]64" Width="[float]54" xmlns="http://www.ni.com/PanelCommon" />
+			<LED BaseName="[string]Round LED" Enabled="[bool]True" FalseBackground="[SMSolidColorBrush]#ffee1c25" FalseContent="[string]DIG Option Off" Height="[float]24" Id="f6b1b4dcd21d46e2aaefd5a35118cd6e" IsReadOnly="[bool]False" Label="[UIModel]62e3a3ecf29a4aefa976bc494a71606e" Left="[float]68" Shape="[LEDShape]Round" TabIndex="[int]5" Top="[float]292" TrueBackground="[SMSolidColorBrush]#ff00a64f" TrueContent="[string]DIG Option On" Value="{DataItemBinding Id=2e7592f3bcda41c5b056016c1caae82f}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="62e3a3ecf29a4aefa976bc494a71606e" LabelOwner="[UIModel]f6b1b4dcd21d46e2aaefd5a35118cd6e" Left="[float]68" Text="[string]Round LED" Top="[float]272" Width="[float]58" xmlns="http://www.ni.com/PanelCommon" />
+			<RingSelector AllowNonSequentialValues="[bool]True" AllowUndefinedValueEntry="[bool]False" BaseName="[string]Text Ring" Enabled="[bool]True" Height="[float]24" Id="ad6c459213874e309205d96062d2c014" IsTypeAheadEnabled="[bool]True" Label="[UIModel]1944412a7db84074bb59632f74b6556e" Left="[float]404" TabIndex="[int]6" Top="[float]388" Value="{DataItemBinding Id=376d602b405f4e309d5ee3650814a34d}" ValueType="[Type]Double" VisualMode="[SelectorVisualMode]RingStyle" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<RingSelectorInfo DisplayValue="[string]0.02 PLC" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[double]0.02" ValueType="[Type]Double" />
+				<RingSelectorInfo DisplayValue="[string]0.06 PLC" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[double]0.06" ValueType="[Type]Double" />
+				<RingSelectorInfo DisplayValue="[string]0.2 PLC" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[double]0.2" ValueType="[Type]Double" />
+				<RingSelectorInfo DisplayValue="[string]1 PLC" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[double]1" ValueType="[Type]Double" />
+				<RingSelectorInfo DisplayValue="[string]10 PLC" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[double]10" ValueType="[Type]Double" />
+				<RingSelectorInfo DisplayValue="[string]100 PLC" DisplayValueOverride="[string]" IsEnabled="[bool]True" Value="[double]100" ValueType="[Type]Double" />
+			</RingSelector>
+			<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="1944412a7db84074bb59632f74b6556e" LabelOwner="[UIModel]ad6c459213874e309205d96062d2c014" Left="[float]404" Text="[string]Aperture NPLC" Top="[float]368" Width="[float]79" xmlns="http://www.ni.com/PanelCommon" />
+			<NumericText Enabled="[bool]True" Foreground="[SMColor]#ff2b3033" Height="[float]24" Id="9f018a04739b463ead44f5f46eab4d31" Interval="[double]2E-06" IsReadOnly="[bool]False" IsTabStop="[bool]True" Label="[UIModel]534a5ba45d034438849780c7d9361407" Left="[float]340" Maximum="[double]1" Minimum="[double]0.00019999999999999998" RadixBase="[RadixBase]0" RadixVisibility="[SMVisibility]Hidden" TabIndex="[int]7" TextAlignment="[TextAlignment]Left" Top="[float]468" UnitAnnotation="[string]s" Value="{DataItemBinding Id=ea030f8472b04980b7db3527a6eea250}" ValueFormatter="[string]DisplayFormat=SystemInternational:Digits=6:DigitDisplayType=SignificantDigits:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" Width="[float]88" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<p.InfoTipDescription xmlns="http://www.ni.com/PlatformFramework">"Sets the range to use on the instrument.  Set this to the absolute value of the upper bound of the expected reading and the instrument adjusts to the most sensitive settings value.  For instance, if you expect a reading of 50mV, set this control to 0.1.\n\nValid Range:\nfor Current DC and AC:\n0.0001, 0.001, 0.01, 0.1, 1, 3 A\nfor Resistance 2-wire and 4-wire:\n100, 1000, 10000, 100000, 1000000, 10000000, 100000000 ohm\nfor Voltage DC and AC:\n0.1, 1, 10, 100, 1000 V\n\nDefault Value:\nfor Current DC and AC: 1\nfor Resistance 2-wire and 4-wire: 1000\nfor Voltage AC: 10\nfor Voltage DC: 1000\n\n&lt;B&gt;Note(s):&lt;/B&gt; \n(1) This control is only valid if &lt;B&gt;Auto Range&lt;/B&gt; is set to &lt;B&gt;Disable&lt;/B&gt;.\n(2) Setting manual range can improve performance.\n(3) Measurements above the manual range value will be returned as out of range.\n(4) For Voltage AC and DC, The maximum range parameter is 1000 V, which is set by MAX. However, the SAFETY LIMIT on the front and rear HI/LO input terminals is 750 VAC (rms). The rms voltage is waveform dependent. A sine wave is limited to 750 VAC (rms), but a 1000 Vpk square wave is safe. Connections to AC mains power is further limited to CAT II (300 V). See the "Safety Information" section in this manual for a complete discussion of the safety features and the safe operation of this instrument."</p.InfoTipDescription>
+			</NumericText>
+			<Label Foreground="[SMColor]#ff2b3033" Height="[float]16" Id="534a5ba45d034438849780c7d9361407" LabelOwner="[UIModel]9f018a04739b463ead44f5f46eab4d31" Left="[float]340" Text="[string]Aperture Time" Top="[float]448" Width="[float]76" xmlns="http://www.ni.com/PanelCommon" />
+		</NativeFrontPanel>
+		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="5f2f359a332d4c63b989c86d5c1f6660" Name="Auto range" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>True</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="9f765201936a4be29306f2b19de99755" IsLatched="True" Name="stop" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+		<DataItem DataType="Double" Id="8837d106f31f477b8e141698e5303b7e" Name="Manual range" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0x0</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="49981889a3c244cab60c10f9f7d47e3c" Name="Auto Zero" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>True</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="d64164f2bf6421f8e775b9a025fab39" Name="DCV Ratio" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="8aa43a4b65314c6786a273104b64b7d8" Name="Auto Impedance" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="2e7592f3bcda41c5b056016c1caae82f" Name="Round LED" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
+		<DataItem DataType="Double" Id="376d602b405f4e309d5ee3650814a34d" Name="Aperture NPLC" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0x0</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Double" Id="ea030f8472b04980b7db3527a6eea250" Name="Aperture Time" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0x3FB999999999999A</p.DefaultValue>
+		</DataItem>
+	</VirtualInstrument>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="4118ee739a8f443099aa33d498f67dbf">
+			<VariableArray DereferenceType="@5a5e7b5e9e094018a1e926caf082fd4e" />
+		</p.TypeReference>
+		<p.TypeReference TypeId="5a5e7b5e9e094018a1e926caf082fd4e">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="String" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="Value" DataType="Double" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

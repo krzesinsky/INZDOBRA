@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JobList>
+  <Job OutputType="Application">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>Application</ComponentSubtypeIdentifier>
+      <BuildId>85f196f0-4f0a-41bb-ab2d-648d1b5edbc4</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>Application</ComponentSubtypeIdentifier>
+      <BuildId>85f196f0-4f0a-41bb-ab2d-648d1b5edbc4</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\VIRTUALDMM_This Computer\VIRTUALDMM.exe\VIRTUALDMM.exe</OutputPath>
+    <BuildName>VIRTUALDMM</BuildName>
+    <State>Failed</State>
+    <LastTotalTime>00:00:00</LastTotalTime>
+    <StartTime>2023-03-10T14:07:26.0022753Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy>::DevSystem::Interactive::VIRTUALDMM.gcomp</HintEnvoy>
+  </Job>
+  <Job OutputType="Application">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>Application</ComponentSubtypeIdentifier>
+      <BuildId>5ae1ddf0-c613-455f-baca-d9012dc68004</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>Application</ComponentSubtypeIdentifier>
+      <BuildId>5ae1ddf0-c613-455f-baca-d9012dc68004</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\VIRTUALDMM_This Computer\VIRTUALDMM.exe\VIRTUALDMM.exe</OutputPath>
+    <BuildName>VIRTUALDMM</BuildName>
+    <State>Failed</State>
+    <LastTotalTime>00:00:00</LastTotalTime>
+    <StartTime>2023-03-10T14:07:34.6973312Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy>::DevSystem::Interactive::VIRTUALDMM.gcomp</HintEnvoy>
+  </Job>
+  <Job OutputType="Application">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>Application</ComponentSubtypeIdentifier>
+      <BuildId>349ac619-e6d6-4847-b2b4-9c672219ebbb</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>Application</ComponentSubtypeIdentifier>
+      <BuildId>349ac619-e6d6-4847-b2b4-9c672219ebbb</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\VIRTUALDMM_This Computer\VIRTUALDMM.exe\VIRTUALDMM.exe</OutputPath>
+    <BuildName>VIRTUALDMM</BuildName>
+    <State>Failed</State>
+    <LastTotalTime>00:00:56</LastTotalTime>
+    <StartTime>2023-03-10T14:10:59.0407193Z</StartTime>
+    <HasChild>True</HasChild>
+    <IsStale>False</IsStale>
+    <QualifiedName>::DevSystem::Interactive::VIRTUALDMM.gcomp</QualifiedName>
+    <HintEnvoy>::DevSystem::Interactive::VIRTUALDMM.gcomp</HintEnvoy>
+  </Job>
+  <Job OutputType="Source">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>Source</ComponentSubtypeIdentifier>
+      <BuildId>a1881d05-75a4-4e43-b2bb-6564d8daa2bd</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>Application</ComponentSubtypeIdentifier>
+      <BuildId>349ac619-e6d6-4847-b2b4-9c672219ebbb</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\VIRTUALDMM_This Computer\NI.G Core.gll\NI.G Core.gll</OutputPath>
+    <BuildName>NI.G Core</BuildName>
+    <State>Failed</State>
+    <LastTotalTime>00:00:00</LastTotalTime>
+    <StartTime>2023-03-10T14:10:59.2751065Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>False</IsStale>
+    <QualifiedName>::DevSystem::Interactive::NI.G Core.gcomp</QualifiedName>
+    <HintEnvoy>::DevSystem::Interactive::VIRTUALDMM.gcomp</HintEnvoy>
+  </Job>
+  <Job OutputType="Source">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>Source</ComponentSubtypeIdentifier>
+      <BuildId>e336a432-6d04-46a3-bf4a-45eb7b010a87</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>Application</ComponentSubtypeIdentifier>
+      <BuildId>349ac619-e6d6-4847-b2b4-9c672219ebbb</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\VIRTUALDMM_This Computer\agit3446xseries.gll\agit3446xseries.gll</OutputPath>
+    <BuildName>agit3446xseries</BuildName>
+    <State>Failed</State>
+    <LastTotalTime>00:00:00</LastTotalTime>
+    <StartTime>2023-03-10T14:10:59.2910637Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>False</IsStale>
+    <QualifiedName>::DevSystem::Interactive::agit3446xseries.gcomp</QualifiedName>
+    <HintEnvoy>::DevSystem::Interactive::VIRTUALDMM.gcomp</HintEnvoy>
+  </Job>
+  <Job OutputType="Source">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>Source</ComponentSubtypeIdentifier>
+      <BuildId>15f747fd-47f9-415d-a522-94671f184593</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>Application</ComponentSubtypeIdentifier>
+      <BuildId>349ac619-e6d6-4847-b2b4-9c672219ebbb</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\VIRTUALDMM_This Computer\VISA.gll\VISA.gll</OutputPath>
+    <BuildName>VISA</BuildName>
+    <State>Failed</State>
+    <LastTotalTime>00:00:00</LastTotalTime>
+    <StartTime>2023-03-10T14:10:59.3125155Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>False</IsStale>
+    <QualifiedName>::DevSystem::Interactive::VISA.gcomp</QualifiedName>
+    <HintEnvoy>::DevSystem::Interactive::VIRTUALDMM.gcomp</HintEnvoy>
+  </Job>
+  <Job OutputType="Source">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>Source</ComponentSubtypeIdentifier>
+      <BuildId>508b83cf-3be7-4d98-80c6-cf22647389c7</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>Application</ComponentSubtypeIdentifier>
+      <BuildId>349ac619-e6d6-4847-b2b4-9c672219ebbb</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\VIRTUALDMM_This Computer\NI.G Core.Strings.gll\NI.G Core.Strings.gll</OutputPath>
+    <BuildName>NI.G Core.Strings</BuildName>
+    <State>Failed</State>
+    <LastTotalTime>00:00:00</LastTotalTime>
+    <StartTime>2023-03-10T14:11:41.8292225Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>False</IsStale>
+    <QualifiedName>::DevSystem::Interactive::NI.G Core.Strings.gcomp</QualifiedName>
+    <HintEnvoy>::DevSystem::Interactive::VIRTUALDMM.gcomp</HintEnvoy>
+  </Job>
+  <Job OutputType="Source">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>Source</ComponentSubtypeIdentifier>
+      <BuildId>7d2ebe1e-64fc-4cd9-96ee-1b52ae12be86</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>Application</ComponentSubtypeIdentifier>
+      <BuildId>349ac619-e6d6-4847-b2b4-9c672219ebbb</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\VIRTUALDMM_This Computer\NI.G Core.Color Picker.gll\NI.G Core.Color Picker.gll</OutputPath>
+    <BuildName>NI.G Core.Color Picker</BuildName>
+    <State>Failed</State>
+    <LastTotalTime>00:00:00</LastTotalTime>
+    <StartTime>2023-03-10T14:11:52.6062125Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>False</IsStale>
+    <QualifiedName>::DevSystem::Interactive::NI.G Core.Color Picker.gcomp</QualifiedName>
+    <HintEnvoy>::DevSystem::Interactive::VIRTUALDMM.gcomp</HintEnvoy>
+  </Job>
+</JobList>
