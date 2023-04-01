@@ -42,3 +42,8 @@ Default Value:
 30.03
 spytać się dlaczego DCVoltage Ratio nie działa
 dać instrument close do eventa obsługującego window close i button stop
+---------
+01.04
+dorobić defaulty
+sprawdzić frequency period
+750/1000 range w frequency
