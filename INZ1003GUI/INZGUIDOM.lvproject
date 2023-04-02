@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="C20B7490E8FD034D6D8A10C743EE86E68136DEDC7A93D3788D3A7364FF851306BB2371DBF70025F34FCE1220A440CEFC5DF875FFFBB709C53E9E3400BF401A73" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="B27012142193CB65692FAA6539158C9E9CBEFDD25EE1CC0DE94458A3495800501B8313BDC27857595DDE941FDFC99DEA7899A759397DBCA7631F9C3C971DEB99" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Data" Name="http://www.ni.com/Data" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -182,6 +182,7 @@
 						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="32c405f7711241c8b87db59c40d8d2ce" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DZIALAALEDASIELEPIEJ.gvi" StoragePath="DZIALAALEDASIELEPIEJ.gvi" />
 						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="a832b54a42f5444eb93f67a078a3e082" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="UCZELNIATEST1.gvi" StoragePath="UCZELNIATEST1.gvi" />
 						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="6e1819692f9a44b283853236c955db5e" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DCVRATIOGUI_eventcontrol.gvi" StoragePath="DCVRATIOGUI_eventcontrol.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="ec74ae8977864899980e7230b84a0725" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GUInormalnecontrollki(takjakpowinnotobyc).gvi" StoragePath="GUInormalnecontrollki(takjakpowinnotobyc).gvi" />
 					</EmbeddedDefinitionReference>
 				</NameScopingEnvoy>
 			</NameScopingEnvoy>
