@@ -631,4 +631,20 @@
 			<string>Property.gtypecache</string>
 		</value>
 	</item>
+	<item>
+		<key>
+			<string>Aperture NPLC_Temp_e5b7efc8773a42a09018aca5d544a9a0.gtypecache</string>
+		</key>
+		<value>
+			<string>Aperture NPLC_Temp.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.G Core.Data Type_87a47a8850304c97815555a20aad1cbb_3e116f9eab7041d69973db9e4eadd1a1.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.Data Type.gcompcache</string>
+		</value>
+	</item>
 </SerializableDictionary>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="3DA41E7240DE9F5C91F4A8EAB503E1ACFC23C367AB788F32D3212182D58BF688C6370251FDDDAD90C3154CFA6E2314B9AA28176ABBDDA0ECE15DA728F58300B7" Timestamp="1D95806CF9C6DC4" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="544EE6428171EB72A7669EBF40C9435C2A96B6E5881D51DCC3E0FB1CC3C38AECDEF59BF4A73D981D280E7450F65B5F8EFD8EDDEA4AE9345D0C1DF00E2644CC2E" Timestamp="1D965ACAFB4049A" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -212,7 +212,7 @@
 							<ArrayBehavior ElementType="Int32" IndexEditorWidth="42">
 								<p.DefaultElementValue>0</p.DefaultElementValue>
 							</ArrayBehavior>
-							<Literal Bounds="48 2 40 15" DataType="Int32" Id="6a985881c39b4773859adceeef69786c">
+							<Literal Bounds="47.6 1.8 40 15" DataType="Int32" Id="6a985881c39b4773859adceeef69786c">
 								<NumericBehavior Interpretation="Exact" ValueFormatter="DisplayFormat=Automatic:Digits=0:DigitDisplayType=DigitsOfPrecision:MinimumFieldWidth=0:AlwaysShowSign=False:ShowThousandsSeparator=False" />
 							</Literal>
 						</ArrayLiteral>

@@ -36,4 +36,14 @@ Valid Values:
 2 - Once: The instrument takes one zero measurement and sets autozero OFF. The zero measurement taken is used for all subsequent measurements until the next change to the function, range or integration time. If the specified integration time is less than 1 PLC, the zero measurement is taken at 1 PLC to optimize noise rejection. Subsequent measurements are taken at the specified fast (< 1 PLC) integration time.
 
 Default Value:
-1 - Enable
+1 - Enable|
+
+---------
+30.03
+spytać się dlaczego DCVoltage Ratio nie działa
+dać instrument close do eventa obsługującego window close i button stop
+---------
+01.04
+dorobić defaulty
+sprawdzić frequency period
+750/1000 range w frequency
