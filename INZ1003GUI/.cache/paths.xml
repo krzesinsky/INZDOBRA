@@ -647,4 +647,84 @@
 			<string>NI.G Core.Data Type.gcompcache</string>
 		</value>
 	</item>
+	<item>
+		<key>
+			<string>NI.G Core.Input Devices_9de90ddad6e54a56a27b638558f38561_3e116f9eab7041d69973db9e4eadd1a1.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.Input Devices.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>keyboard_36_9de90ddad6e54a56a27b638558f38561_3e116f9eab7041d69973db9e4eadd1a1.gtypecache</string>
+		</key>
+		<value>
+			<string>keyboard.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>lv_input_devices_57_9de90ddad6e54a56a27b638558f38561_3e116f9eab7041d69973db9e4eadd1a1.slicache</string>
+		</key>
+		<value>
+			<string>lv_input_devices.slicache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>key_35_9de90ddad6e54a56a27b638558f38561_3e116f9eab7041d69973db9e4eadd1a1.gtypecache</string>
+		</key>
+		<value>
+			<string>key.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>Zmiana_indicator_ad95a071cda74c6a8d4674159c6342c1.gtypecache</string>
+		</key>
+		<value>
+			<string>Zmiana_indicator.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.SL.Tag_3662f03901214e6e9963961229f35229_d0f2e4cc8431424681848083f990242a.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.SL.Tag.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.SL.Utilities_f76f82bf497d4ed7a1f0c160b5ef8dea_1234983b5ead455ba2627028c46a6f49.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.SL.Utilities.gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>NI.G Core.File IO (General)_2d919e82ac344e4e83bef2a2dbd10f36_3e116f9eab7041d69973db9e4eadd1a1.gcompcache</string>
+		</key>
+		<value>
+			<string>NI.G Core.File IO (General).gcompcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>System Directory Type_184_2d919e82ac344e4e83bef2a2dbd10f36_3e116f9eab7041d69973db9e4eadd1a1.gtypecache</string>
+		</key>
+		<value>
+			<string>System Directory Type.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>lv_sysdir_labview_61_2d919e82ac344e4e83bef2a2dbd10f36_3e116f9eab7041d69973db9e4eadd1a1.slicache</string>
+		</key>
+		<value>
+			<string>lv_sysdir_labview.slicache</string>
+		</value>
+	</item>
 </SerializableDictionary>
