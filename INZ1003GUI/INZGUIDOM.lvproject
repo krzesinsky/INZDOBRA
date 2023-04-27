@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="F7E21837E36565270E3E6F11912D0E91E0F0BEAA7A1017E535CF3A7C40245C2239D127DD95F56BCA5DD22DEFC11F9F91E5017BA241E163EF60AB6E8EFE1005CC" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="E78E169F7149C468DEFB24D90A81F25235F1F72D283B1EC780101B8514CF2AADFDB7A15130EB5A4B2C9252B5C3635AB87ACF9C8A7BD97666DA95533890938C37" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Data" Name="http://www.ni.com/Data" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -193,6 +193,9 @@
 						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="e309ba3cbf5d4689b243da2215393303" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="X_CONTINUITY.gvi" StoragePath="X_CONTINUITY.gvi" />
 						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="b0f67ece80f4404681e8a1b228205533" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="X_DIODE.gvi" StoragePath="X_DIODE.gvi" />
 						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="82b2cbc8dd994baaa2b847d711a2d055" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="X_TEMPERATURE.gvi" StoragePath="X_TEMPERATURE.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="ac8acf9dff3d46438fd0c03c04cfc818" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Y_ACVOLTAGE.gvi" StoragePath="Y_ACVOLTAGE.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="616f36fb40cf4811aca6aa6738143a99" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="X_RESET.gvi" StoragePath="X_RESET.gvi" />
+						<SourceFileReference Bindings="ContentKind_{http://www.ni.com/SystemDesigner/Vi}Process.Vi,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory" Id="70d1b078a61a453788855686ed491992" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="X_2WIRERESISTANCE_TRYHOME.gvi" StoragePath="X_2WIRERESISTANCE_TRYHOME.gvi" />
 					</EmbeddedDefinitionReference>
 				</NameScopingEnvoy>
 			</NameScopingEnvoy>

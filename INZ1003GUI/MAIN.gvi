@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="8C5791060102DDF12868D7E4D7E876BACA7627758B2E5138AAEC69AE374A1BFB6B63CE7E915BB71171103F3C3EA2C6F280219D555B4B6EB6C933433E4BAA3809" Timestamp="1D9666350522F4B" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="8450A904344C860094005C459CD6D41733CA8A47B8567AD7ADEEAC74CF1FA219A85CA0444D3480988EE9D0047B088DE90D6210E3681EAA248C7A3B1E7659D462" Timestamp="1D96E025FE7C49B" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -34,7 +34,20 @@
 			<ConnectorPaneTerminal Hotspot="15 40" />
 			<ConnectorPaneTerminal Hotspot="25 40" />
 		</ConnectorPane>
-		<DiagramUnplacedItems Id="7a7790889a3a4f5b825829d528c754f1" xmlns="http://www.ni.com/MocCommon" />
+		<DiagramUnplacedItems Id="7a7790889a3a4f5b825829d528c754f1" xmlns="http://www.ni.com/MocCommon">
+			<DataAccessor Bounds="0 0 40 15" DataItem="4ea63e018c9b477c82db33546b452fea" Id="ba1cafe0c474e32a8b42a0bc93e9338" Label="d2d1eae73244e519609cfb99686760d">
+				<Terminal DataType="@ab6e8bdffe56415caab1274e36c5b266" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="ba1cafe0c474e32a8b42a0bc93e9338" Bounds="-35 0 30 15" Id="d2d1eae73244e519609cfb99686760d" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Radio Button Group</p.Text>
+			</NodeLabel>
+			<DataAccessor Bounds="0 0 40 15" DataItem="446cb4028f8c43aab163c70ca86c33ab" Id="888b4b40f1e04773874ee70bacbd4a37" Label="64bee02f7bf64b14951146ec01960596">
+				<Terminal DataType="Boolean" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="888b4b40f1e04773874ee70bacbd4a37" Bounds="-35 0 30 15" Id="64bee02f7bf64b14951146ec01960596" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Image Button</p.Text>
+			</NodeLabel>
+		</DiagramUnplacedItems>
 		<FrontPanelUnplacedItems Id="b9a48ad8572c4b1b8353f1a1e1b44205" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
 		<BlockDiagram Id="9a56de1fb15f4c8382c07b4a93f6a7f5">
 			<WhileLoop Bounds="-235 40 680 415" DiagramId="95e2fa54ef9742b1b47150a4ee88258c" Id="548b55febd4e42d2b265f7970c4df258">
@@ -451,6 +464,15 @@
 				<RingSelectorInfo DisplayValue="[string]Fixed" Value="[int]1" ValueType="[Type]Int32" />
 			</RingSelector>
 			<Label Height="[float]16" Id="3860e7bbd0654a0294d37deb40839e09" LabelAlignment="[PartAlignment]RightTop" LabelOwner="[UIModel]be24f2bf00e34df187f0f24a101a4b00" Left="[float]184" Text="[string]thermocouple reference junction type" Top="[float]292" Width="[float]200" xmlns="http://www.ni.com/PanelCommon" />
+			<RadioButtonGroup BaseName="[string]Radio Button Group" Id="4b3fcdaa67c74f69a630eb5dcd12864f" Label="[UIModel]6d50c28cb64147789488751133f421e9" Left="[float]884" TabIndex="[int]6" Top="[float]452" Value="{DataItemBinding Id=4ea63e018c9b477c82db33546b452fea}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RadioButtonStyle" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<RadioButtonGroupInfo DisplayValue="[string]Item 0" DisplayValueOverride="[string]Item 0" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+				<RadioButtonGroupInfo DisplayValue="[string]Item 1" DisplayValueOverride="[string]Item 1" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+			</RadioButtonGroup>
+			<Label Height="[float]16" Id="6d50c28cb64147789488751133f421e9" LabelOwner="[UIModel]4b3fcdaa67c74f69a630eb5dcd12864f" Left="[float]884" Text="[string]Radio Button Group" Top="[float]432" Width="[float]106" xmlns="http://www.ni.com/PanelCommon" />
+			<Button BaseName="[string]Image Button" Content="[UIModel]aa0fb93c77cc42399cf017401c6ee7b9" Height="[float]72" Id="a779b7e1ef90482d9f67cdfaf6ca0c59" IncludeInCapture="[bool]False" IsMomentary="[bool]False" Label="[UIModel]4eb6e4a6bec340f280d2cbea0a728f07" Left="[float]868" Shape="[ButtonShape]Square" TabIndex="[int]7" Top="[float]244" Value="{DataItemBinding Id=446cb4028f8c43aab163c70ca86c33ab}" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+				<Image BaseName="[string]Image" Id="aa0fb93c77cc42399cf017401c6ee7b9" IsHitTestVisible="[bool]False" Left="[float]0" Stretch="[SMStretch]Uniform" Top="[float]0" xmlns="http://www.ni.com/PlatformFramework" />
+			</Button>
+			<Label Height="[float]16" Id="4eb6e4a6bec340f280d2cbea0a728f07" LabelOwner="[UIModel]a779b7e1ef90482d9f67cdfaf6ca0c59" Left="[float]868" Text="[string]Image Button" Top="[float]224" Width="[float]72" xmlns="http://www.ni.com/PanelCommon" />
 		</NativeFrontPanel>
 		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="375d0e5bfae04af6aeccabe78761678f" IsLatched="True" Name="stop" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>False</p.DefaultValue>
@@ -479,8 +501,23 @@
 		<DataItem AdaptToDiagramType="True" DataType="Int32" Id="81681bba0e5f4f298e5e72c226180fe4" Name="thermocouple reference junction type" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>0</p.DefaultValue>
 		</DataItem>
+		<DataItem DataType="@ab6e8bdffe56415caab1274e36c5b266" Id="4ea63e018c9b477c82db33546b452fea" Name="Radio Button Group" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" DataType="Boolean" Id="446cb4028f8c43aab163c70ca86c33ab" IsLatched="True" Name="Image Button" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>False</p.DefaultValue>
+		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="ab6e8bdffe56415caab1274e36c5b266">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="Item 0" />
+					<EnumerationMember Value="1" Name="Item 1" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
 		<p.TypeReference TypeId="21feded3123547b4ac46335e074a98db">
 			<Attributed AttributedType="@0f51f4594b4347d8b82a764a000b0223">
 				<AttributeValues>

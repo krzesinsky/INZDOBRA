@@ -727,4 +727,28 @@
 			<string>lv_sysdir_labview.slicache</string>
 		</value>
 	</item>
+	<item>
+		<key>
+			<string>Tag_70d8fc1978254ed49b06080cd55dbc6f_8d77e55d198c40e6ad7a14564fa8e453_3e116f9eab7041d69973db9e4eadd1a1.udrcache</string>
+		</key>
+		<value>
+			<string>Tag.udrcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>Core_ef9aa8ea4ba40eca7de968f5731b7b0_8d77e55d198c40e6ad7a14564fa8e453_3e116f9eab7041d69973db9e4eadd1a1.udrcache</string>
+		</key>
+		<value>
+			<string>Core.udrcache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>EndpointState_abfcfcd57b134922a6f0d72a7a8490a1_8d77e55d198c40e6ad7a14564fa8e453_3e116f9eab7041d69973db9e4eadd1a1.gtypecache</string>
+		</key>
+		<value>
+			<string>EndpointState.gtypecache</string>
+		</value>
+	</item>
 </SerializableDictionary>

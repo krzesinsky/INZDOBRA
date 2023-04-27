@@ -47,3 +47,6 @@ dać instrument close do eventa obsługującego window close i button stop
 dorobić defaulty
 sprawdzić frequency period
 750/1000 range w frequency
+-----------------
+13.04
+acquire data log digitize
